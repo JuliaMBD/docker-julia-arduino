@@ -23,5 +23,5 @@ docker run -it --rm --name julia -v $(PWD):/home/work -w /home/work okamumu/juli
 ```sh
 docker exec -it [process number] /bin/bash
 apt update
-apt install gcc-avr avr-libc avrdude avr-binutils
+apt install gcc-avr avr-libc avrdude
 ```
