@@ -21,7 +21,7 @@ docker run -it --rm --name julia -v $(PWD):/home/work -w /home/work okamumu/juli
 
 - The AVR tools are required to make obj and hex for arduino
 ```sh
-docker exec -it [process number] /bin/bash
+docker exec -it --name julia /bin/bash
 apt update
 apt install gcc-avr avr-libc avrdude
 ```
