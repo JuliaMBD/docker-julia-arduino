@@ -14,7 +14,7 @@ This image is the multiple for AMD64 and ARM64.
 
 An example for running:
 ```sh
-docker run -it --rm --name julia -v $(PWD):/home/work -w /home/work okamumu/julia:1.8.3-arduino
+docker run -it --rm --name julia -v $(pwd):/home/work -w /home/work okamumu/julia:1.8.3-arduino
 ```
 
 ## Notes
